@@ -58,7 +58,7 @@ const ProgressBar: React.FC<ProgressBarProps> = ({
             </div>
             <div>
               <p className="text-gray-300 text-sm italic leading-relaxed">
-                "The mind is everything. What you think you become."
+                The mind is everything. What you think you become.
               </p>
               <p className="text-orange-400 text-xs mt-1">- Buddha</p>
             </div>
