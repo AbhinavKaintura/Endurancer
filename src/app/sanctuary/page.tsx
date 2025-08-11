@@ -1,6 +1,7 @@
 import MeditationLibrary from '@/components/pages/sanctuary/MeditationLibrary'
 import YogaLibrary from '@/components/pages/sanctuary/YogaLibrary'
 import PranayamaLibrary from '@/components/pages/sanctuary/PranayamaLibrary'
+import YogaPage from '@/components/pages/sanctuary/yoga'
 
 export default function Sanctuary() {
   return (
@@ -16,6 +17,8 @@ export default function Sanctuary() {
           <YogaLibrary />
           <PranayamaLibrary />
         </div>
+                  <YogaPage/>
+
       </div>
     </div>
   )

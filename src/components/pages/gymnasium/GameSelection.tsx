@@ -1,6 +1,9 @@
 import Card from '@/components/ui/Card'
 import Button from '@/components/ui/Button'
-import Link from 'next/link'
+
+interface GameSelectionProps {
+  onGameSelect: (gameId: string) => void
+}
 
 const games = [
   {
@@ -32,7 +35,7 @@ const games = [
   }
 ]
 
-export default function GameSelection() {
+export default function GameSelection({ onGameSelect }: GameSelectionProps) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       {games.map((game) => (
@@ -63,12 +66,19 @@ export default function GameSelection() {
           </div>
           
           <div className="flex space-x-2">
-            <Link href={`/gymnasium/${game.id}/learn`} className="flex-1">
-              <Button variant="secondary" className="w-full">Learn to Play</Button>
-            </Link>
-            <Link href={`/gymnasium/${game.id}/play`} className="flex-1">
-              <Button className="w-full">Play Now</Button>
-            </Link>
+            <Button 
+              variant="secondary" 
+              className="flex-1"
+              onClick={() => onGameSelect(game.id)}
+            >
+              Learn to Play
+            </Button>
+            <Button 
+              className="flex-1"
+              onClick={() => onGameSelect(game.id)}
+            >
+              Play Now
+            </Button>
           </div>
         </Card>
       ))}
