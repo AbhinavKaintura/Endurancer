@@ -8,12 +8,12 @@ export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className="bg-black/20 backdrop-blur-md border-b border-white/10 sticky top-0 z-50">
+    <nav className="bg-black/20 backdrop-blur-md border-b border-white/10 sticky top-0 z-50 py-1">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <span className="text-2xl font-bold bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
+           <span className="text-2xl font-bold bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
               Endurance
             </span>
           </Link>
@@ -55,7 +55,7 @@ export default function NavBar() {
           {/* Auth Buttons */}
           <div className="hidden md:flex items-center space-x-4">
             <Link href="/login">
-              <Button variant="text">Log In</Button>
+              <Button >Log In</Button>
             </Link>
             <Link href="/register">
               <Button>Sign Up</Button>

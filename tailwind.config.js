@@ -1,3 +1,5 @@
+const { color } = require('framer-motion');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -21,7 +23,8 @@ module.exports = {
         'endurance-purple': {
           500: '#8b5cf6',
           900: '#581c87'
-        }
+        },
+        
       },
       animation: {
         'breathe': 'breathe 4s ease-in-out infinite',

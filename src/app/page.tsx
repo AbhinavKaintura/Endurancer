@@ -5,16 +5,16 @@ import Link from 'next/link'
 
 export default function WelcomePage() {
   return (
-    <div className="bg-gradient-to-br from-indigo-900 to-purple-900 text-white">
+    <div className="bg-black">
       <HeroSection />
       <FeaturedContent />
       <PillarCards />
       <div className="py-12">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold mb-6">Previous test</h2>
+         <h2 className="text-3xl font-bold mb-6 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">Previous test</h2>
             <Link 
               href='/previous-home' 
-              className="inline-block bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg cursor-pointer"
+              className="inline-block bg-white/90 transition-transform hover:to-white/60 hover:text-shadow-gray-900 duration-600 text-black px-6 py-3 rounded-lg font-semibold hover:scale-105 hover:shadow-lg cursor-pointer mr-4"
             >
               Previous Version Dashboard
             </Link>

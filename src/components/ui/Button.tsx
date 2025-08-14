@@ -26,8 +26,8 @@ export default function Button({
   }
   
   const variants = {
-    primary: "bg-gradient-to-r from-orange-400 to-orange-600 hover:from-orange-500 hover:to-orange-700 text-white shadow-lg disabled:opacity-50 disabled:cursor-not-allowed",
-    secondary: "bg-white/10 hover:bg-white/20 text-white border border-white/30 disabled:opacity-50 disabled:cursor-not-allowed",
+    primary: "bg-gradient-to-r from-white to-gray-100 hover:from-gray-50 hover:to-gray-200 text-black shadow-lg cursor-pointer transition-transform hover:scale-108",
+    secondary: "bg-white/10 hover:bg-white/20 text-white border border-white/30 cursor-pointer transition-transform hover:scale-110",
     text: "text-orange-400 hover:text-orange-300 disabled:opacity-50 disabled:cursor-not-allowed"
   }
 
