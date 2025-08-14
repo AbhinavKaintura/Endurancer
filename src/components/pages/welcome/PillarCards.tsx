@@ -6,36 +6,31 @@ const pillars = [
     title: "The Sanctuary",
     description: "Restore your mind with meditation, yoga, and breathwork",
     icon: "/icons/buddhist-yoga-pose.png",
-    href: "/sanctuary",
-    color: "from-blue-400 to-indigo-600"
+    href: "/sanctuary"
   },
   {
     title: "The Mentor", 
     description: "AI-driven guidance based on proven life principles",
     icon: "/icons/helping-hand.png",
-    href: "/mentor",
-    color: "from-green-400 to-teal-600"
+    href: "/mentor"
   },
   {
     title: "The Gymnasium",
     description: "Train your mind with traditional cognitive games",
     icon: "/icons/brain (1).png",
-    href: "/gymnasium", 
-    color: "from-purple-400 to-pink-600"
+    href: "/gymnasium"
   },
   {
     title: "The Chronicle",
     description: "Reflect and track your mental wellness journey",
     icon: "/icons/books-stack-of-three.png",
-    href: "/chronicle",
-    color: "from-yellow-400 to-orange-600"
+    href: "/chronicle"
   },
   {
     title: "The Soundscape",
     description: "Focus-enhancing audio environments and music",
     icon: "/icons/wave-sound.png",
-    href: "/soundscape",
-    color: "from-red-400 to-rose-600"
+    href: "/soundscape"
   }
 ]
 
