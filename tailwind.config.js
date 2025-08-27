@@ -13,7 +13,8 @@ module.exports = {
         'endurance-blue': {
           50: '#eff6ff',
           500: '#3b82f6',
-          900: '#1e3a8a'
+          900: '#1e3a8a',
+          100:'#1A2B3D'
         },
         'endurance-orange': {
           400: '#fb923c',

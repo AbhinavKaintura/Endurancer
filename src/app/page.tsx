@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function WelcomePage() {
   return (
-    <div className="bg-black">
+    <div className="bg-gray-900">
       <HeroSection />
       <FeaturedContent />
       <PillarCards />

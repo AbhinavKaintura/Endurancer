@@ -5,19 +5,19 @@ const pillars = [
   {
     title: "The Sanctuary",
     description: "Restore your mind with meditation, yoga, and breathwork",
-    icon: "/icons/buddhist-yoga-pose.png",
+    icon: "/icons/meditation_pillar.png",
     href: "/sanctuary"
   },
   {
     title: "The Mentor", 
     description: "AI-driven guidance based on proven life principles",
-    icon: "/icons/helping-hand.png",
+    icon: "/icons/helping_hand.png",
     href: "/mentor"
   },
   {
     title: "The Gymnasium",
     description: "Train your mind with traditional cognitive games",
-    icon: "/icons/brain (1).png",
+    icon: "/icons/brain.png",
     href: "/gymnasium"
   },
   {
@@ -42,12 +42,12 @@ export default function PillarCards() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {pillars.map((pillar) => (
             <Link key={pillar.title} href={pillar.href}>
-              <Card className="hover:scale-105 cursor-pointer h-full ">
-                <div className={`text-4xl mb-4 p-2 rounded-lg   flex items-center justify-center `}>
+              <Card className="hover:scale-105 cursor-pointer h-[380px] ">
+                <div className={`text-4xl mb-4 p-2 rounded   flex items-center justify-center `}>
                   <img
                   src={pillar.icon}
                   alt="windy Image"
-                  className="h-[50px] w-[50px] text-white bg-white border rounded-full p-2  "
+                  className="h-[170px] w-[180px] text-white bg-transparent rounded-3xl p-2  "
                 />
                 </div>
                 <h3 className="text-xl font-semibold mb-3 text-center">{pillar.title}</h3>
